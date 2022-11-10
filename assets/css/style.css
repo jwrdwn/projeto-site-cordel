@@ -52,7 +52,6 @@ header a, footer a {
 
 header a:hover, footer a:hover {
     transform: scale(1.07);
-    /* font-weight: bolder; */
     opacity: 0.5;
 }
 
@@ -62,6 +61,7 @@ section {
     line-height: 2rem;
     padding-left: 2rem;
     font-size: 1.3rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(245, 245, 245, 0.2);
 }
 
 section p {
@@ -83,7 +83,8 @@ section p {
 }
 
 .imagem p {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
     display: inline-block;
     padding: 0.7rem 3.5rem;
 }
