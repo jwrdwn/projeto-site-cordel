@@ -29,7 +29,7 @@ header {
 }
 
 header h1 {
-    padding-top: 3.1rem;
+    padding-top: 2.5rem;
     font-family: var(--fonte2);
     font-weight: 900;
     font-size: 3rem;
@@ -37,7 +37,7 @@ header h1 {
 
 header p {
     padding-top: 0.4rem;
-    padding-bottom: 3.1rem;
+    padding-bottom: 2.5rem;
     font-size: 1.15rem;
 }
 
@@ -56,16 +56,18 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
     line-height: 2rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     font-size: 1.3rem;
     text-shadow: 0.1rem 0.1rem 0.2rem rgba(245, 245, 245, 0.2);
+    margin: auto;
+    text-align: center;
 }
 
-section p {
-    padding-bottom: 1rem;
+.duplo {
+    padding-bottom: 2.5vh;
 }
 
 .normal {
@@ -110,10 +112,31 @@ section#img-2 {
 footer {
     background-color: black;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 0.7rem 0;
 }
 
 #marca {
     font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+    header h1 {
+        padding-top: 1rem;
+        font-size: 2.95rem;
+    }
+    
+    header p {
+        padding-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    section {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 0.45rem 0;
+    }
 }
