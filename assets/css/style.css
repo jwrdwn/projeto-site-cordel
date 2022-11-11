@@ -35,6 +35,10 @@ header h1 {
     font-size: 3rem;
 }
 
+#quebra {
+    display: none;
+}
+
 header p {
     padding-top: 0.4rem;
     padding-bottom: 2.5rem;
@@ -91,9 +95,12 @@ section {
     padding: 0.7rem 3.5rem;
 }
 
+.imagem#img-2 {
+    padding: 0.7rem 0.27rem;
+}
+
 section#img-1 {
     background-image: url('../images/background-001.jpg');
-
 }
 
 #img-1 p {
@@ -102,7 +109,6 @@ section#img-1 {
 
 section#img-2 {
     background-image: url('../images/background-002.jpg');
-
 }
 
 #img-2 p {
@@ -120,7 +126,11 @@ footer {
     font-weight: bold;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
+    #quebra {
+        display: block;
+    }
+
     header h1 {
         padding-top: 1rem;
         font-size: 2.95rem;
